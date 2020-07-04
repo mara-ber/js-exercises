@@ -9,9 +9,8 @@ ONLY CHANGE the code of calculateArea function -
 please fix this bug so we see the result is "30"
 */
 
-function calculateArea(x){
-    let areaValue = x * y;
-    return areaValue;
+function calculateArea(x, y){
+    return x * y;
 }
 
 let width = 10;
