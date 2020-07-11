@@ -6,16 +6,21 @@
   4. BONUS: change the "car" variable, and move the console.log() to a different line, so it logs "Richard"
 */
 
-console.log(driverName);
+//console.log(driverName);
 
 let car = "BMW";
 let driverName = "Astrid";
+console.log(driverName) // -> for Astrid
 
+car = "Volvo"; //-> to get into else
 if (car === "BMW") {
   let driverName = "Reyam";
   let carModel = "4 Series";
+  console.log(driverName) // -> for Reyam
 } else {
   let driverName = "Richard";
+  console.log(driverName) // -> console Richard
 }
 
 driverName = "Awet";
+console.log(driverName) //-> for Awet
