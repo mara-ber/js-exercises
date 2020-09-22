@@ -16,11 +16,11 @@ car = "Volvo"; //-> to get into else
 if (car === "BMW") {
   let driverName = "Reyam";
   let carModel = "4 Series";
-  console.log(driverName) // -> for Reyam
+  console.log(driverName); // -> for Reyam
 } else {
   let driverName = "Richard";
-  console.log(driverName) // -> console Richard
+  console.log(driverName); // -> console Richard
 }
 
 driverName = "Awet";
-console.log(driverName) //-> for Awet
+console.log(driverName); //-> for Awet
